@@ -13,6 +13,8 @@
 		1EE6D1161DAD924D006EBDBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6D1141DAD924D006EBDBF /* LaunchScreen.storyboard */; };
 		1EE6D11E1DAD928B006EBDBF /* GameOfThronesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6D11D1DAD928B006EBDBF /* GameOfThronesTableViewController.swift */; };
 		1EE6D1201DAD9310006EBDBF /* got.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6D11F1DAD9310006EBDBF /* got.json */; };
+		9C44ED0F1DAEFCF90063D325 /* gameOfThrones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C44ED0E1DAEFCF90063D325 /* gameOfThrones.swift */; };
+		9C44ED131DAF38DF0063D325 /* GOTDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C44ED121DAF38DF0063D325 /* GOTDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1EE6D1171DAD924D006EBDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EE6D11D1DAD928B006EBDBF /* GameOfThronesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOfThronesTableViewController.swift; path = "AC3.2-GameOfThrones/GameOfThronesTableViewController.swift"; sourceTree = "<group>"; };
 		1EE6D11F1DAD9310006EBDBF /* got.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = got.json; sourceTree = "<group>"; };
+		9C44ED0E1DAEFCF90063D325 /* gameOfThrones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameOfThrones.swift; sourceTree = "<group>"; };
+		9C44ED121DAF38DF0063D325 /* GOTDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOTDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 			isa = PBXGroup;
 			children = (
 				1EE6D11D1DAD928B006EBDBF /* GameOfThronesTableViewController.swift */,
+				9C44ED0E1DAEFCF90063D325 /* gameOfThrones.swift */,
+				9C44ED121DAF38DF0063D325 /* GOTDetailViewController.swift */,
 				1EE6D10A1DAD924D006EBDBF /* AC3.2-GameOfThrones */,
 				1EE6D1091DAD924D006EBDBF /* Products */,
 			);
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C44ED131DAF38DF0063D325 /* GOTDetailViewController.swift in Sources */,
+				9C44ED0F1DAEFCF90063D325 /* gameOfThrones.swift in Sources */,
 				1EE6D11E1DAD928B006EBDBF /* GameOfThronesTableViewController.swift in Sources */,
 				1EE6D10C1DAD924D006EBDBF /* AppDelegate.swift in Sources */,
 			);
@@ -303,6 +311,7 @@
 				1EE6D11C1DAD924D006EBDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
